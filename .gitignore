@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# CMake
+build
+
+# clangd
+.cache
+
+# emacs
+.dir-locals.el
