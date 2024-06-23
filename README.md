@@ -20,4 +20,4 @@ and optimal pseudo timestepping schemes will be investigated.
 
 ## License
 
-CFLow is available under the Apache 2.0 License, see [LICENSE](LICENSE).
+CFLow is available under the Apache 2.0 License, see [LICENSE](LICENSE.txt).
