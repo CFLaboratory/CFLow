@@ -42,3 +42,6 @@ build
 
 # Doxygen
 man
+
+# MacOS
+.DS_Store
