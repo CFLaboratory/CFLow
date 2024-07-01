@@ -1,23 +1,14 @@
 # CFLow
 
 CFLow (part of the Computational Fluids Laboratory) is a general purpose CFD solver.
+A particular goal with `CFLow` is to investigate the use of modern programming techniques for
+developing high performance CFD codes that are portable across CPU and accelerated architectures and
+scale from laptop/workstations up to supercomuters.
 
 ## Roadmap
 
-The initial design for CFLow is to solve the (un)steady incompressible Navier-Stokes equations using
-a dual-timstepping approach.
-A roadmap to achieve this is outlined below:
-
-- v0.1 Load a mesh
-- v0.2 Solve the diffusion equation (steady)
-- v0.3 Solve the advection-diffusion equation (steady)
-- v0.4 Solve Stokes flow (steady, lid-driven cavity)
-- v0.5 Solve Navier-Stokes flow (steady, lid-driven cavity)
-- v1.0 Solve Navier-Stokes flow (unsteady, Taylor-Green vortex)
-
-Following v1.0 optimisations such as hyperbolic diffusion, multigrid-accelerated dual timestepping
-and optimal pseudo timestepping schemes will be investigated.
+A roadmap outlining the plans for `CFLow` v1.0 is available in the [ROADMAP](doc/ROADMAP.md) file.
 
 ## License
 
-CFLow is available under the Apache 2.0 License, see [LICENSE](LICENSE.txt).
+CFLow is available under the Apache 2.0 License, see the [LICENSE](LICENSE.txt) file.
