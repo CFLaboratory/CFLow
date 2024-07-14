@@ -18,9 +18,21 @@ After configuring, `CFLow` can be built by running
 cmake --build build
 ```
 
-## Roadmap
+### Requirements
 
-A roadmap outlining the plans for `CFLow` v1.0 is available in the [ROADMAP](doc/ROADMAP.md) file.
+`CFLow` is written in C++, building requires a modern C++ compiler.
+
+Building the documentation (see [Documentation](#doc)) requires `Doxygen`.
+
+## Documentation    {#doc}
+
+Documentation for `CFLow` is available as `.pdf` and `.html` formats produced by `Doxygen` from
+source code and documentation sources, including [design](doc/design.md) documentation.
+To build the documentation run
+```
+cmake --build build --target doc
+```
+which will produce a new directory `man/` containing the documentation.
 
 ## License
 
